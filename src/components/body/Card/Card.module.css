@@ -1,0 +1,85 @@
+.contentContainer{
+    margin: 0 auto;
+    max-width: 1400px;
+    display: block;
+}
+
+.ul{
+    list-style: none;
+    padding: 0px;
+}
+
+.li{
+    list-style: none;
+    max-width: 50%;
+    flex: 0 0 50%;
+    margin: 0 auto 30px;
+    display: inline-block;
+}
+
+.itemContainer{
+    display: block;
+    border: 1px solid #ebedef;
+    width: 555px;
+    height: 245px;
+    text-align: left;    
+    transition-duration: 0.25s;
+}
+
+.itemContainer:hover{
+    box-shadow: 2px 2px 2px gray;
+}
+
+.itemCard{
+    padding: 40px;
+    position: relative;
+    text-align: left;
+}
+
+.cardTitle{
+    font-size: 30px;
+    line-height: 27px;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+    text-align: left;
+}
+
+.cardContent{
+    font-size: 15px;
+    line-height: 1.53;
+    margin: 10px 0 0;
+    min-height: 72px;
+    font-weight: normal;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: left;
+}
+
+.cardFooter{
+    margin-top: 25px;
+    display: block;
+}
+
+.cardFooterLink{
+    font-size: 15px;
+    text-decoration: none;
+    line-height: 20px;
+    color: #333;
+    display: inline-block;
+    text-align: left;
+}
+
+.cardTab{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 10px;
+    height: 30px;
+    content: " ";
+    display: inline-block;
+}

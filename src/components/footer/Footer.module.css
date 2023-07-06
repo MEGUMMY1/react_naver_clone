@@ -2,16 +2,16 @@
     display: block;
     text-align: center;
     border-top: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-
-.footercontainer{
+.footerContainer{
     width: 1400px;
-    height: 20px;
-    display: flex;
-    justify-content: space-between;
+    height: 120px;
+    display: block;
     position: relative;
-    margin: 0 auto;
 }
 
 .social{
@@ -24,11 +24,18 @@
     width: 9px;
     height: 19px;
     background-size: 9px 19px;
+    margin-left: 40px;
 }
 
 .links{
     position: absolute;
     top: 50px;
     left: 0;
-    display: block;
+}
+
+.copy{
+    margin: 50px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #000;
 }
